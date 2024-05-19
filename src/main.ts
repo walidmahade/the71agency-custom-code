@@ -1,6 +1,12 @@
 import './style.css';
 import { gsap } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
+import { setup } from './stars.ts';
+
+// on page load call setup function
+window.onload = () => {
+    setup();
+};
 
 gsap.registerPlugin(MotionPathPlugin);
 MotionPathPlugin.convertToPath('circle');
@@ -11,7 +17,9 @@ gsap.to('#logo-finsweet', {
         path: '#circle-1',
         align: '#circle-1',
         alignOrigin: [0.5, 0.5],
-        autoRotate: false
+        autoRotate: false,
+        start: 0.2,
+        end: 1.2
     },
     transformOrigin: '50% 50%',
     duration: 60,
@@ -40,8 +48,8 @@ gsap.to('#logo-wized', {
         align: '#circle-2',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.9,
-        end: 1.9
+        start: 0.8,
+        end: 1.8
     },
     transformOrigin: '50% 50%',
     duration: 80,
@@ -70,8 +78,8 @@ gsap.to('#logo-zapier', {
         align: '#circle-3',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.5,
-        end: 1.5
+        start: 0.6,
+        end: 1.6
     },
     transformOrigin: '50% 50%',
     duration: 120,
@@ -84,8 +92,8 @@ gsap.to('#logo-hubspot', {
         align: '#circle-3',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.8,
-        end: 1.8
+        start: 0.99,
+        end: 1.99
     },
     transformOrigin: '50% 50%',
     duration: 120,
