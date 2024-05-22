@@ -19,7 +19,7 @@ gsap.to('#logo-finsweet', {
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
         start: 0.2,
-        end: 1.2
+        end: 1.2 // 1.2
     },
     transformOrigin: '50% 50%',
     duration: 60,
