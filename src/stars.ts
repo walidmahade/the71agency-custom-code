@@ -493,7 +493,7 @@ class StarField {
 }
 export function setup() {
     let canvas = document.getElementById('canvas');
-    const howManyStars = 1300;
+    let howManyStars = 1300;
     if (IS_MOBILE) howManyStars = 500;
     let starfield = new StarField(howManyStars, canvas);
     starfield.startRenderLoop();

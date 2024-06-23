@@ -26,6 +26,34 @@ gsap.to('#logo-finsweet', {
     ease: 'none',
     repeat: -1
 });
+gsap.to('#figma-logo', {
+    motionPath: {
+        path: '#circle-1',
+        align: '#circle-1',
+        alignOrigin: [0.5, 0.5],
+        autoRotate: false,
+        start: 0.5,
+        end: 1.5 // 1.2
+    },
+    transformOrigin: '50% 50%',
+    duration: 60,
+    ease: 'none',
+    repeat: -1
+});
+gsap.to('#logo-relume', {
+    motionPath: {
+        path: '#circle-1',
+        align: '#circle-1',
+        alignOrigin: [0.5, 0.5],
+        autoRotate: false,
+        start: 0.9,
+        end: 1.9
+    },
+    transformOrigin: '50% 50%',
+    duration: 60,
+    ease: 'none',
+    repeat: -1
+});
 
 // --------- CIRCLE 2 ---------
 gsap.to('#logo-gsap', {
@@ -34,8 +62,8 @@ gsap.to('#logo-gsap', {
         align: '#circle-2',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.5,
-        end: 1.5
+        start: 0.4,
+        end: 1.4
     },
     transformOrigin: '50% 50%',
     duration: 80,
