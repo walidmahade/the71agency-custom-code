@@ -82,7 +82,7 @@ gsap.to('#figma-logo', {
         end: 1.5 // 1.2
     },
     transformOrigin: '50% 50%',
-    duration: 60,
+    duration: 80,
     ease: 'none',
     repeat: -1
 });
@@ -96,7 +96,7 @@ gsap.to('#typescript-logo', {
         end: 1.99
     },
     transformOrigin: '50% 50%',
-    duration: 120,
+    duration: 80,
     ease: 'none',
     repeat: -1
 });
@@ -139,7 +139,7 @@ gsap.to('#logo-wized', {
         end: 1.8
     },
     transformOrigin: '50% 50%',
-    duration: 80,
+    duration: 120,
     ease: 'none',
     repeat: -1
 });
