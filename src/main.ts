@@ -26,7 +26,7 @@ gsap.to('#logo-finsweet', {
     ease: 'none',
     repeat: -1
 });
-gsap.to('#figma-logo', {
+gsap.to('#javascript-logo', {
     motionPath: {
         path: '#circle-1',
         align: '#circle-1',
@@ -40,6 +40,7 @@ gsap.to('#figma-logo', {
     ease: 'none',
     repeat: -1
 });
+
 gsap.to('#logo-relume', {
     motionPath: {
         path: '#circle-1',
@@ -70,21 +71,35 @@ gsap.to('#logo-gsap', {
     ease: 'none',
     repeat: -1
 });
-gsap.to('#logo-wized', {
+
+gsap.to('#figma-logo', {
     motionPath: {
         path: '#circle-2',
         align: '#circle-2',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.8,
-        end: 1.8
+        start: 0.5,
+        end: 1.5 // 1.2
     },
     transformOrigin: '50% 50%',
-    duration: 80,
+    duration: 60,
     ease: 'none',
     repeat: -1
 });
-
+gsap.to('#typescript-logo', {
+    motionPath: {
+        path: '#circle-2',
+        align: '#circle-2',
+        alignOrigin: [0.5, 0.5],
+        autoRotate: false,
+        start: 0.99,
+        end: 1.99
+    },
+    transformOrigin: '50% 50%',
+    duration: 120,
+    ease: 'none',
+    repeat: -1
+});
 // --------- CIRCLE 3 ---------
 gsap.to('#logo-xano', {
     motionPath: {
@@ -114,17 +129,17 @@ gsap.to('#logo-zapier', {
     ease: 'none',
     repeat: -1
 });
-gsap.to('#logo-hubspot', {
+gsap.to('#logo-wized', {
     motionPath: {
         path: '#circle-3',
         align: '#circle-3',
         alignOrigin: [0.5, 0.5],
         autoRotate: false,
-        start: 0.99,
-        end: 1.99
+        start: 0.8,
+        end: 1.8
     },
     transformOrigin: '50% 50%',
-    duration: 120,
+    duration: 80,
     ease: 'none',
     repeat: -1
 });
