@@ -8,6 +8,9 @@ dependencies:
   gsap:
     specifier: ^3.12.5
     version: 3.12.5
+  jquery:
+    specifier: ^3.7.1
+    version: 3.7.1
 
 devDependencies:
   prettier:
@@ -402,6 +405,10 @@ packages:
 
   /gsap@3.12.5:
     resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+    dev: false
+
+  /jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
     dev: false
 
   /nanoid@3.3.7:
