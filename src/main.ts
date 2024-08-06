@@ -1,9 +1,9 @@
 import './style.css';
 import { gsap } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { setup } from './stars.ts';
 import { initHeaderAnimation } from './header.ts';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // on page load call setup function
 window.onload = () => {
@@ -14,7 +14,6 @@ window.onload = () => {
 
 // setup gsap plugins
 gsap.registerPlugin(ScrollTrigger);
-
 gsap.registerPlugin(MotionPathPlugin);
 MotionPathPlugin.convertToPath('circle');
 

@@ -1,3 +1,5 @@
+import { gsap } from 'gsap';
+
 export function initHeaderAnimation() {
     const $header = $('.nav_fixed');
 
