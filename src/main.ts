@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
 import { setup } from './stars.ts';
 import { initHeaderAnimation } from './header.ts';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // on page load call setup function
 window.onload = () => {
